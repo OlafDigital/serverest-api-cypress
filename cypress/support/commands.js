@@ -1,4 +1,6 @@
 import { faker } from "@faker-js/faker"
+import Ajv from 'ajv'
+
 Cypress.Commands.add('cria_user', (user) => {
     //const email = faker.internet.email()
     //user.email = email
@@ -123,3 +125,12 @@ Cypress.Commands.add('deleta_user', (idUsuario) => {
         url: `https://serverest.dev/usuarios/` + idUsuario
     }).then((response) => { return response })
 })
+
+Cypress.Commands.add(
+    'validateSchema',
+    (schema, body) => { const ajv = new Ajv()
+        const valid = ajv.validate( schema, body )
+        expect(valid, JSON.stringify(ajv.errors, null, 2)
+        ).to.be.true
+    }
+)
