@@ -1,5 +1,7 @@
 # 🚀 Serverest API Cypress
-![CI](https://github.com/OlafDigital/serverest-api-cypress/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/OlafDigital/serverest-api-cypress/actions/workflows/ci.yaml/badge.svg)
+
+
 ![Cypress](https://img.shields.io/badge/Cypress-14.x-green)
 ![Node.js](https://img.shields.io/badge/Node.js-LTS-brightgreen)
 ![API Testing](https://img.shields.io/badge/API%20Testing-Automated-blue)
