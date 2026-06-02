@@ -1,0 +1,14 @@
+{
+    "cria_produto": {
+        "nome": "Ouro preto6",
+        "preco": 100,
+        "descricao": "Compra de ouro preto6",
+        "quantidade": 10
+    },  
+        "edita_produto": {
+            "nome": "Ouro preto6 - Editado",
+            "preco": 150,
+            "descricao": "Compra de ouro preto6 - Editado",
+            "quantidade": 5
+        }
+}

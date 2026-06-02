@@ -1,0 +1,14 @@
+{
+    "cria_usuario": {
+        "nome": "Branco",
+        "email": "brancoqa6a@bqa.com",
+        "password": "teste",
+        "administrador": "true"
+    },
+    "edita_usuario": {
+        "nome": "Branco - QA",
+        "email": "brancoqa6a@bqa.com",
+        "password": "teste",
+        "administrador": "true"
+    }
+}

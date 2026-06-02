@@ -1,0 +1,48 @@
+name: Serverest API Tests
+
+on: push
+
+jobs:
+  tests-linux:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run Cypress API Tests 🧪
+        uses: cypress-io/github-action@v6
+        with:
+          command: npm run cy:run
+
+      - name: Upload Reports
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reports-linux
+          path: |
+            cypress/reports
+            reports
+          if-no-files-found: ignore
+
+  tests-windows:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run Cypress API Tests 🧪
+        uses: cypress-io/github-action@v6
+        with:
+          command: npm run cy:run
+
+      - name: Upload Reports
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reports-windows
+          path: |
+            cypress/reports
+            reports
+          if-no-files-found: ignore

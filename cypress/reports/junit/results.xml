@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.828" tests="15" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-05-04T01:06:19" tests="0" file="cypress\e2e\API.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="API do Serverest" timestamp="2026-05-04T01:06:19" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="USUÁRIOS" timestamp="2026-05-04T01:06:19" tests="4" time="10.710" failures="0">
+    <testcase name="API do Serverest USUÁRIOS Deve criar usuarios" time="9.746" classname="Deve criar usuarios">
+    </testcase>
+    <testcase name="API do Serverest USUÁRIOS Deve buscar todos os usuarios" time="0.272" classname="Deve buscar todos os usuarios">
+    </testcase>
+    <testcase name="API do Serverest USUÁRIOS Deve buscar usuario por ID" time="0.246" classname="Deve buscar usuario por ID">
+    </testcase>
+    <testcase name="API do Serverest USUÁRIOS Deve atualizar usuario" time="0.265" classname="Deve atualizar usuario">
+    </testcase>
+  </testsuite>
+  <testsuite name="LOGIN DE USUÁRIO" timestamp="2026-05-04T01:06:30" tests="1" time="0.326" failures="0">
+    <testcase name="API do Serverest LOGIN DE USUÁRIO Deve realizar login do usuario" time="0.272" classname="Deve realizar login do usuario">
+    </testcase>
+  </testsuite>
+  <testsuite name="PRODUTOS" timestamp="2026-05-04T01:06:30" tests="4" time="1.104" failures="0">
+    <testcase name="API do Serverest PRODUTOS Deve criar produto" time="0.302" classname="Deve criar produto">
+    </testcase>
+    <testcase name="API do Serverest PRODUTOS Deve buscar todos os produtos" time="0.236" classname="Deve buscar todos os produtos">
+    </testcase>
+    <testcase name="API do Serverest PRODUTOS Deve buscar produto por ID" time="0.236" classname="Deve buscar produto por ID">
+    </testcase>
+    <testcase name="API do Serverest PRODUTOS Deve atualizar produto" time="0.227" classname="Deve atualizar produto">
+    </testcase>
+  </testsuite>
+  <testsuite name="CARRINHO" timestamp="2026-05-04T01:06:31" tests="4" time="1.152" failures="0">
+    <testcase name="API do Serverest CARRINHO Deve criar carrinho de compras" time="0.254" classname="Deve criar carrinho de compras">
+    </testcase>
+    <testcase name="API do Serverest CARRINHO Deve buscar carrinho de compras" time="0.313" classname="Deve buscar carrinho de compras">
+    </testcase>
+    <testcase name="API do Serverest CARRINHO Deve buscar carrinho de compras por ID" time="0.246" classname="Deve buscar carrinho de compras por ID">
+    </testcase>
+    <testcase name="API do Serverest CARRINHO Deve cancelar compras" time="0.233" classname="Deve cancelar compras">
+    </testcase>
+  </testsuite>
+  <testsuite name="EXCLUSÃO" timestamp="2026-05-04T01:06:32" tests="2" time="0.500" failures="0">
+    <testcase name="API do Serverest EXCLUSÃO Deve deletar produto" time="0.224" classname="Deve deletar produto">
+    </testcase>
+    <testcase name="API do Serverest EXCLUSÃO Deve deletar usuario" time="0.217" classname="Deve deletar usuario">
+    </testcase>
+  </testsuite>
+</testsuites>
