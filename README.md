@@ -1,5 +1,5 @@
 # 🚀 Serverest API Cypress
-![CI](https://github.com/OlafDigital/serverest-api-cypress/actions/workflows/ci.yaml/badge.svg)
+[![CI](https://github.com/OlafDigital/serverest-api-cypress/actions/workflows/ci.yaml/badge.svg)](https://github.com/OlafDigital/serverest-api-cypress/actions/workflows/ci.yaml)
 
 
 ![Cypress](https://img.shields.io/badge/Cypress-14.x-green)
